@@ -1,0 +1,45 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.home > div {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  height: auto;
+  font-size: 20px;
+  width: auto;
+  align-self: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+input {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  outline: none;
+}
+
+input::placeholder {
+  color: black;
+}
+
+select {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  outline: none;
+}
+
+label {
+  align-self: flex-start;
+  margin-left: 10px;
+}

@@ -1,0 +1,28 @@
+.pokemon {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  padding: 20px;
+}
+
+.pokemon:hover {
+  transform: scale(1.06);
+}
+
+.pokemon > img {
+  height: 140px;
+  object-fit: contain;
+}
+
+.pokemon > h2 {
+  margin: 6px;
+}
+
+.pokemon > p {
+  margin: 12px;
+}
